@@ -1,0 +1,75 @@
+/* Set the background color and text color for the body */
+body {
+    background-color: #282634;
+    color: #ff4057;
+    margin: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #282634;
+    padding: 20px;
+    border-bottom: 5px solid #ff4057;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the navigation */
+  nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #282634;
+    border-right: 5px solid #ff4057;
+    border-bottom: 5px solid #ff4057;
+  }
+   /*Adds structure to the nav*/
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+   /*Style the nav*/
+  nav li a {
+    display: block;
+    color: #ff4057;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+   /*Changes the color when hovering over the nav mouse*/
+  nav li a.active {
+    background-color: #282634;
+    color: #ff4057;
+  }
+  /*Changes the color when hovering over the nav mouse*/
+  nav li a:hover:not(.active) {
+    background-color: #ff4057;
+    color: #282634;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #282634;
+    padding: 10px;
+    border-top: 5px solid #ff4057;
+  }
+  
+  /* Style the logo */
+  #logo {
+    width: 250px;
+    height: 200px;
+  }
+  
